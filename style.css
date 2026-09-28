@@ -40,23 +40,24 @@ a, a:visited {
 
 #basic-layout-1 header {
     grid-column: 1/-1;
-    grid-row: 1/3;
+    grid-row: 1/4;
 }
 
 #basic-layout-1 nav {
     grid-column: 1/3;
-    grid-row: 3/10;
+    grid-row: 4/11;
 }
 
 #basic-layout-1 main {
     grid-column: 3/13;
-    grid-row: 3/10;
+    grid-row: 4/11;
 }
 
 #basic-layout-1 footer {
     grid-column: 1/-1;
-    grid-row: 10/-1;
+    grid-row: 11/-1;
 }
+
 
 /* Basic Layout 2 */
 #basic-layout-2 {
@@ -79,4 +80,33 @@ a, a:visited {
 
 #basic-layout-2 footer {
     grid-row: 11/-1;
+}
+
+
+/* Basic Layout 3 */
+#basic-layout-3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 14px;
+}
+
+#basic-layout-3 header {
+    grid-column: 1/7;
+    grid-row: 11/-1;
+}
+
+#basic-layout-3 nav {
+    grid-column: 7/13;
+    grid-row: 11/-1;
+}
+
+#basic-layout-3 main {
+    grid-column: 1/13;
+    grid-row: 1/9;
+}
+
+#basic-layout-3 footer {
+    grid-column: 1/13;
+    grid-row: 9/11;
 }
