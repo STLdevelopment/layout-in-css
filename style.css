@@ -139,3 +139,27 @@ a, a:visited {
     grid-column: 1/10;
     grid-row: 7/-1;
 }
+
+
+/* Basic Layout 5 */
+#basic-layout-5 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 14px;
+}
+
+#basic-layout-5 header {
+    grid-column: 4/-1;
+}
+
+#basic-layout-5 nav {
+  grid-column: 1/9;
+}
+
+#basic-layout-5 main {
+  grid-column: 4/-1;
+}
+
+#basic-layout-5 footer {
+  grid-column: 4/-1;
+}
