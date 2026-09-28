@@ -110,3 +110,32 @@ a, a:visited {
     grid-column: 1/13;
     grid-row: 9/11;
 }
+
+
+/* Basic Layout 4 */
+#basic-layout-4 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 14px;
+}
+
+#basic-layout-4 header {
+    grid-column: 10/-1;
+    grid-row: 1/7;
+}
+
+#basic-layout-4 nav {
+    grid-column: 10/-1;
+    grid-row: 7/-1;
+}
+
+#basic-layout-4 main {
+    grid-column: 1/10;
+    grid-row: 1/7;
+}
+
+#basic-layout-4 footer {
+    grid-column: 1/10;
+    grid-row: 7/-1;
+}
