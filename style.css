@@ -78,5 +78,5 @@ a, a:visited {
 }
 
 #basic-layout-2 footer {
-    grid-row: 1/-1;
+    grid-row: 11/-1;
 }
