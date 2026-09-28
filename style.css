@@ -192,3 +192,19 @@ a, a:visited {
     grid-column: 10/-1;
     grid-row: 1/-1;
 }
+
+
+/* Basic Layout 7 */
+#basic-layout-7 main {
+  min-height: 100vh;
+}
+
+#basic-layout-7 nav {
+    float: right;
+    width: 25%;
+    height: 50%;
+}
+
+#basic-layout-7 p {
+  font-size: 2.75rem;
+}
